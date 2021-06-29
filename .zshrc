@@ -74,7 +74,7 @@ alias n='npm run'
 alias y='yarn run'
 alias c='clear'
 alias h='history'
-alias f='exec fish -l'
+
 # zsh系
 alias zsh='vim ~/.zshrc'
 alias szsh='source ~/.zshrc'
