@@ -1,11 +1,8 @@
 # 補完 #
 
 # Tabを押すと補完が表示される
-# zinit ice wait'0'; zinit light zsh-users/zsh-completions
-# autoload -Uz compinit && compinit
-
-インタラクティブに補完が表示される。zsh-completionsとはどちらかを採用する形が最適
-zinit light marlonrichert/zsh-autocomplete
+zinit ice wait'0'; zinit light zsh-users/zsh-completions
+autoload -Uz compinit && compinit
 
 # 履歴から入力中のコマンドを自動補完
 zinit light zsh-users/zsh-autosuggestions
