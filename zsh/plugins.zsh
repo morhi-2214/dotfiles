@@ -24,6 +24,11 @@ zinit light paulirish/git-open
 # Ctrl+r でコマンド履歴を検索
 zinit light zdharma/history-search-multi-word
 
+# リアルタイムコマンド補完
+# zinit ice wait'0'; zinit light zsh-users/zsh-completions
+# autoload -Uz compinit && compinit
+zinit light marlonrichert/zsh-autocomplete
+
 # [bat ~] batコマンドを使える（見やすいcatコマンドみたいなもの）
 # バイナリとしてダウンロードしてpathを通している
 zinit ice as"program" from"gh-r" mv"bat* -> bat" pick"bat/bat"
