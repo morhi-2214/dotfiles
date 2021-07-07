@@ -1,4 +1,4 @@
-# eval "$(anyenv init -)"
+eval "$(anyenv init -)"
 
 # prompt
 PROMPT='%m@%n %F{1}%~%f$ '
