@@ -23,7 +23,6 @@ alias gmud='git merge upstream/develop'
 alias gmom='git merge origin/master'
 alias gcom='git commit -m'
 alias gpo='git push origin'
-alias gpom='git push origin master'
 alias gst='git stash'
 alias gstl='git stash list'
 alias gstu='git stash -u'
@@ -61,10 +60,7 @@ alias szsh='source ~/.zshrc'
 
 # mysql系(臨時)
 alias mss='mysql.server start'
-alias msstop='mysql.server stop'
 alias msr='mysql -u root -p'
-alias ps8000='php -S localhost:8000'
-alias ps8080='php -S localhost:8080'
 alias pa='php artisan'
 alias cr='composer require'
 

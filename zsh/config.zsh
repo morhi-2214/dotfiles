@@ -34,7 +34,7 @@ zstyle ':completion:*' group-name ''
 zstyle ':completion:*:default' menu select=2
 
 ### 補完侯補が多い時には尋ねない。
-LISTMAX=1000
+LISTMAX=0
 
 ###############################################################################
 
