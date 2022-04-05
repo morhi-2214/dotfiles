@@ -66,3 +66,8 @@ alias cr='composer require'
 
 # dockerコンテナに入る。deで実行できる
 alias de='docker exec -it $(docker ps | peco | cut -d " " -f 1) /bin/bash'
+
+## 以下はただのエイリアス設定
+if builtin command -v bat > /dev/null; then
+  alias cat="bat"
+fi
