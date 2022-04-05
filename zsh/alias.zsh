@@ -67,3 +67,10 @@ alias ps8000='php -S localhost:8000'
 alias ps8080='php -S localhost:8080'
 alias pa='php artisan'
 alias cr='composer require'
+
+# dockerコンテナに入る。deで実行できる
+alias de='docker exec -it $(docker ps | peco | cut -d " " -f 1) /bin/bash'
+
+
+# ブランチを簡単切り替え。git checkout lbで実行できる
+alias -g lb='`git branch | peco --prompt "GIT BRANCH>" | head -n 1 | sed -e "s/^\*\s*//g"`'
