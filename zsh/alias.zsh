@@ -33,9 +33,11 @@ alias v='vim'
 alias vi='vim'
 
 # ls系
-alias ls='ls -g'
-alias la='ls -a'
-alias ll='ls -l'
+alias ls='ls -gG'
+alias la='ls -aG'
+alias ll='ls -lG'
+# ディレクトリはlsした時、黄緑で表示される
+export LSCOLORS=Cxfxcxdxbxegedabagacad
 
 # exaをlsの代替として用いる場合
 # if [[ $(command -v exa) ]]; then
