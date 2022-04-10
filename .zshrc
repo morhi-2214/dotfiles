@@ -36,3 +36,6 @@ source $SCRIPT_DIR/zsh/env.zsh
 source $SCRIPT_DIR/zsh/alias.zsh
 
 ###################################
+
+# Starshipの有効化（必ずファイル末尾に記述）
+eval "$(starship init zsh)"

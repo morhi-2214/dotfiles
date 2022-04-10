@@ -1,5 +1,6 @@
 eval "$(anyenv init -)"
 
+
 # prompt
 PROMPT='%m@%n %F{1}%~%f$ '
 
@@ -91,13 +92,13 @@ bindkey "^N" history-beginning-search-forward-end
 zinit snippet PZT::modules/helper/init.zsh
 
 # oh-my-zshのセットアップ
-zinit snippet OMZL::git.zsh
-zinit snippet OMZP::git # <- なんかおまじないらしい
-zinit cdclear -q
+# zinit snippet OMZL::git.zsh
+# zinit snippet OMZP::git # <- なんかおまじないらしい
+# zinit cdclear -q
 
-# プロンプトのカスタマイズ
-setopt promptsubst
-zinit snippet OMZT::gnzh
+# プロンプトのカスタマイズ(oh-my-zshのテーマを使用)
+# setopt promptsubst
+# zinit snippet OMZT::gnzh
 
 #################################  peco関連  ####################################
 
