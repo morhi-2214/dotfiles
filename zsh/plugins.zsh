@@ -1,10 +1,11 @@
 # 補完 #
 
+# TODO: とりあえず補完がFigと競合するので無効化している
 # Tabを押すと補完が表示される
-zinit ice wait'0'; zinit light zsh-users/zsh-completions
-autoload -Uz compinit && compinit
+# zinit ice wait'0'; zinit light zsh-users/zsh-completions
+# autoload -Uz compinit && compinit
 
-zinit light marlonrichert/zsh-autocomplete
+# zinit light marlonrichert/zsh-autocomplete
 
 ########
 
