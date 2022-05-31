@@ -1,14 +1,11 @@
 # aliases
 
 # Git系
-alias g='git'
-alias gs='git status'
 alias gb='git branch'
 alias gp='git pull'
 alias gpom='git pull origin master'
 alias gcl='git clone'
 alias gch='git checkout'
-alias gco='git commit -m'
 alias gg='git grep'
 alias ga='git add'
 alias ga.='git add .'
@@ -23,10 +20,10 @@ alias gmud='git merge upstream/develop'
 alias gmom='git merge origin/master'
 alias gcom='git commit -m'
 alias gpo='git push origin'
-alias gst='git stash'
-alias gstl='git stash list'
-alias gstu='git stash -u'
-alias gstp='git stash pop'
+alias gs='git stash -u'
+alias gsl='git stash list'
+alias gsu='git stash -u'
+alias gsp='git stash pop'
 
 # vim系
 alias v='vim'
