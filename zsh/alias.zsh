@@ -73,11 +73,9 @@ alias h='history'
 alias zsh='vim ~/.zshrc'
 alias szsh='source ~/.zshrc'
 
-# mysql系(臨時)
-alias mss='mysql.server start'
-alias msr='mysql -u root -p'
-alias pa='php artisan'
-alias cr='composer require'
+# docker系
+alias dr='docker-compose restart'
+alias ds='docker-compose stop'
 
 # dockerコンテナに入る。deで実行できる
 alias de='docker exec -it $(docker ps | peco | cut -d " " -f 1) /bin/bash'
